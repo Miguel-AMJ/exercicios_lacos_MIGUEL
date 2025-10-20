@@ -1,9 +1,9 @@
 let soma = 0;
-let i = 1;
+let contador = 1;
 
 do {
     soma += i;
-    i++;
-} while (i <= 5);
+    contador++;
+} while (contador <= 5);
 
 console.log(soma); // Resultado: 15
